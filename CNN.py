@@ -112,3 +112,4 @@ test_output, _ = cnn(test_x[:10])
 pred_y = torch.max(test_output, 1)[1].data.numpy()
 print(pred_y, 'prediction number')
 print(test_y[:10].numpy(), 'real number')
+# 1234567890
